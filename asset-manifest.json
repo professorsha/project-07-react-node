@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/professorsha/project-07-react-node/static/css/main.7acaea2f.css",
+    "main.js": "/professorsha/project-07-react-node/static/js/main.07d3183d.js",
+    "index.html": "/professorsha/project-07-react-node/index.html",
+    "main.7acaea2f.css.map": "/professorsha/project-07-react-node/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/professorsha/project-07-react-node/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
