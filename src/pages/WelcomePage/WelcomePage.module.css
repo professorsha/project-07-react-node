@@ -1,5 +1,6 @@
 .welcomePageContainer {
   max-width: var(--container-min-width);
+  /* margin: 0 auto; */
   padding: 0 20px;
   margin-top: 25px;
 }
@@ -8,13 +9,14 @@
   background: var(--primary-white)
     url('../../../dist/images/BackgroundWelcomePageMobile.png') no-repeat bottom;
   width: var(--container-min-width);
+  //height: 872px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
 }
 
-/* @media (min-resolution: 192dpi) {
+ /* @media (min-resolution: 192dpi) {
   .welcomePage {
     background: var(--primary-white)
       url('../../../images/BackgroundWelcomePageMobile@2x.png') no-repeat; width: var(--container-min-width);
@@ -27,6 +29,7 @@
  } */
 .welcomePageContainerBlock {
   margin: 0 auto;
+  
 }
 
 /* ____________________________Tablet style____________________________ */
@@ -39,10 +42,11 @@
 
   .welcomePage {
     background: var(--primary-white)
-      url('../../../dist/images/BackgroundTabletWelcomePage.png') no-repeat
-      bottom;
-    width: var(--container-medium-width);
+      url('../../../dist/images/BackgroundTabletWelcomePage.png') no-repeat bottom;
+    width: var(--container-medium-width); 
     height: 736px;
+    //margin-top: 40px;
+    //padding-bottom: 125px;
   }
   /* @media (min-resolution: 192dpi) {
     .welcomePage {
@@ -71,6 +75,7 @@
     justify-content: center;
     align-items: start;
     flex-direction: row;
+     
   }
 
   .welcomePageContainerBlock {
