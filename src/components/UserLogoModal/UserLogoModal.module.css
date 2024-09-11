@@ -5,6 +5,10 @@
     height: 16px;
 }
 
+.btn {
+    background-color: transparent;
+}
+
 .container {
     display: flex;
     flex-direction: column;

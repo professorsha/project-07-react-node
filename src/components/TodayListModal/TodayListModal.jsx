@@ -2,11 +2,11 @@
 import { useState } from "react";
 import css from "./TodayListModal.module.css";
 import icons from "/public/symbol-defsN.svg"
-import { AddWater } from "../AddWaterList";
+import { EditWaterForm } from "../TodayWaterList/AddWaterList.jsx";
 import PropTypes from "prop-types";
 
 
-export const WaterEntry = ({ initialAmount, initialDate, onDelete }) => {
+ const WaterEntry = ({ initialAmount, initialDate, onDelete }) => {
     const [amount, setAmount] = useState(initialAmount);
     const [date, setDate] = useState(initialDate);
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -66,7 +66,7 @@ export const WaterEntry = ({ initialAmount, initialDate, onDelete }) => {
             </div>
             {isModalOpen && (
                 <div className={css.modalOverlay}>
-                    <AddWater
+                    <EditWaterForm
                         initialAmount={amount}
                         initialDate={date}
                         updateWaterData={updateWaterData}
@@ -101,3 +101,5 @@ WaterEntry.propTypes = {
     initialDate: PropTypes.instanceOf(Date).isRequired,
     onDelete: PropTypes.func.isRequired,
 };
+
+export default WaterEntry;
